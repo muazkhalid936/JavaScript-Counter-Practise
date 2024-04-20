@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Counter Practise</title>
+  </head>
+
+  <body>
+    <div
+      class="flex flex-col bg-gradient-to-r from-cyan-500 to-fuchsia-500 justify-center h-screen w-auto items-center text-center"
+    >
+      <!-- <div class="flex flex-col items-center justify-center h-screen"> -->
+      <div class="border-8 border-black p-20">
+        <div>
+          <h1 class="text-5xl font-bold item-center text-center">
+            JavaScript Practise
+          </h1>
+        </div>
+        <h1 class="text-3xl font-bold mt-10" id="number">0</h1>
+        <div
+          class="flex gap-2 my-10 place-content-center items-centers text-center"
+        >
+          <div>
+            <button
+              class="px-6 text-2xl rounded-full py-2 text-white font-bold bg-green-600"
+              onclick="increment()"
+            >
+              Increment
+            </button>
+          </div>
+          <div>
+            <button
+              class="px-6 rounded-full text-2xl py-2 text-white font-bold bg-red-600"
+              onclick="decrement()"
+            >
+              Decrement
+            </button>
+          </div>
+          <div>
+            <button
+              class="px-6 rounded-full py-2 text-2xl text-white font-bold bg-blue-600"
+              onclick="neutral()"
+            >
+              Neutral
+            </button>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
